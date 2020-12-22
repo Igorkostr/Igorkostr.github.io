@@ -1,0 +1,138 @@
+.ourwork {
+    padding:51px 0 57px 0;
+    height: 100%;
+}
+.ourwork h2{
+    text-transform: uppercase;
+    padding-bottom: 18px;
+    text-align: center;
+}
+.divid_small{
+    display: block;
+    margin: 0 auto;
+    width: 148px;
+    height: 1px;
+    border:#dc5238;
+    background-color: #dc5238;
+}
+.ourwork_subunder{
+    margin-top: 18px;
+    margin-bottom: 37px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 300;
+    color: #2e2e2e;
+}
+.ourwork_container{
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.ourwork_item{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 360px;
+height: 210px;
+}
+.ourwork_item img{
+    width: 360px;
+    height: 210px;
+}
+.ourwork_title{
+    margin-top: 27px;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+color: #ec644b;
+margin-bottom: 3px;
+}
+.ourwork_subtitle{
+text-align: justify;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 300;
+color: #3a3a3a;
+}
+
+
+@media (min-width:576px) and (max-width:719px)  {
+    .ourwork_item{
+        margin-bottom: 110px;
+    }
+    .ourwork_item:last-child{
+        margin-bottom: 0;
+    }
+
+    .ourwork_title{
+    margin-top: 7px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ec644b;
+    margin-bottom: 3px;
+    }
+    
+    .ourwork_container{
+        margin-top: 9px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ourwork h2{
+        margin-top: 0;
+        text-transform: uppercase;
+        padding-bottom: 18px;
+        text-align: center;
+    }
+    
+}
+@media (min-width:720px) and (max-width:1156px){
+    .ourwork_container{
+        margin-top: 10px;
+        display: flex;
+     
+
+    }
+    .ourwork h2{
+        margin-top: 0; 
+        text-transform: uppercase;
+        padding-bottom: 18px;
+        text-align: center;
+    }
+    
+    .ourwork_item{
+        margin-bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 288px;
+    height: 168px;
+    }
+    .ourwork_item img{
+        width: 288px;
+        height: 168px;
+        }
+    .ourwork_title{
+        margin-top: 17px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ec644b;
+    margin-bottom: 3px;
+    }
+    .ourwork_subtitle{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    color: #3a3a3a;
+    }
+    
+        
+}

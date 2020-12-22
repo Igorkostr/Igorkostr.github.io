@@ -1,0 +1,414 @@
+.promo {
+    width: 100%;
+    height: auto;
+    background:url('../img/heder_bg.jpeg') top center/cover no-repeat;  
+    padding-bottom: 82px;
+  
+}
+.promo_row-1{
+    display: flex;
+    justify-content: space-between;
+}
+.promo .logo {
+ padding-top: 23px;
+}
+
+.promo ul{
+    margin-top: 48px;
+    display: flex;
+}
+.promo ul li{
+    padding: 5px;
+    list-style: none;
+    border-right: 1px #ffffff dotted ;
+}
+
+.promo ul li:last-child{
+    border-right: none;
+
+}
+.promo ul li a{
+font-size: 20px;
+color:#ffffff;
+text-decoration: none;
+}
+.promo ul li a:hover{
+color:#ec644b;
+text-decoration: underline;
+}
+.cont_vopros{
+text-align: end;
+margin-top: 48px;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 300;
+color: #ffffff;
+}
+.tel{
+font-family: Roboto;
+font-size: 19px;
+font-weight: 700;
+color: #ffffff;
+}
+.promo_button{
+margin-top: 44px;
+width: 160px;
+height: 45px;
+background-color: #ec644b;
+color: #ffffff;
+font-size: 12px;
+font-weight: 400;
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 45px;
+cursor: pointer;
+}
+.promo_inform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.promo_inform h3{
+font-family: Roboto;
+font-size: 24px;
+font-weight: 300;
+color: #ffffff;
+padding-bottom: 26px;
+}
+.promo_inform h1{
+
+    font-family: RobotoCondensed;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ec644b;
+    padding-bottom: 9px;
+}
+.promo_inform h2{
+    font-family: RobotoCondensed;
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 38px;
+}
+.divider{
+    display: block;
+    margin: 0 auto;
+    width: 809px;
+    height: 2px;
+    background-color:#ffffff;
+}
+.promo_row-2{
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+.promo_wrapper-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.promo_sub-icon{
+    padding-top: 19px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+}
+.promo_button-main{
+    display: block;
+    margin: 0 auto;
+    margin-top: 39px;
+    width: 230px;
+    height: 57px;
+    background-color: #ec644b;
+    border-radius: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.promo_button-main:hover{
+    background-color:#9e0f0f;
+}
+
+@media (min-width:576px) and (max-width:767px){
+    .promo {
+        width: 100%;
+        height: auto;
+        background:url('../img/heder_bg.jpeg') center center/cover no-repeat;  
+        padding-bottom: 22px;
+      
+    }
+    .container{
+        width: 576px;
+    }
+    .promo_row-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .promo .logo {
+        display: block;
+        margin: 0 auto;
+        padding-top: 10px;
+       }
+    
+    .promo ul{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .promo ul li{
+        padding: 35px;
+        list-style: none;
+        border-right: none ;
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+
+    }
+    .promo ul li a{
+        font-size: 40px;
+    }
+    .cont_vopros{
+        text-align: center;
+        margin-top: 18px;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 300;
+        color: #ffffff;
+        }
+        .tel{
+        text-align: center;
+        font-family: Roboto;
+        font-size: 29px;
+        font-weight: 700;
+        color: #ffffff;
+        }
+        .promo_button{
+            display: block;
+            margin: 0 auto;
+        margin-top: 44px;
+        width: 160px;
+        height: 45px;
+        background-color: #ec644b;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 45px;
+        cursor: pointer;
+
+        }
+        
+    .promo_inform{
+      
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          
+        }
+    .promo_inform h3{
+        margin-top: 20px;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 300;
+        color: #ffffff;
+        padding-bottom: 26px;
+        }
+    .promo_inform h1{
+        text-align: center;
+        font-family: RobotoCondensed;
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ec644b;
+        padding-bottom: 9px;
+    }
+        .promo_inform h2{
+            text-align: center;
+            font-family: RobotoCondensed;
+            font-size: 42px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #ffffff;
+            padding-bottom: 38px;
+        }
+        .divider{
+            display: block;
+            margin: 0 auto;
+            width: 300px;
+            height: 2px;
+            background-color:#ffffff;
+        }
+
+}
+
+@media (min-width:768px) and (max-width:1100px){
+
+    .container{
+        max-width: 768px;
+        margin: 0 auto;
+        display: block;
+    }
+    .promo {
+        width: 100%;
+        height: auto;
+        background:url('../img/heder_bg.jpeg') top center/cover no-repeat;  
+        padding-bottom: 82px;
+      
+    }
+    .promo_row-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .promo .logo {
+     padding-top: 23px;
+    }
+    
+    .promo ul{
+        margin-top: 48px;
+        display: flex;
+    }
+    .promo ul li{
+        padding: 3px;
+        list-style: none;
+        border-right: 1px #ffffff dotted ;
+    }
+    
+    .promo ul li:last-child{
+        border-right: none;
+    
+    }
+    .promo ul li a{
+    font-size: 14px;
+    color:#ffffff;
+    text-decoration: none;
+    }
+    .promo ul li a:hover{
+    color:#ec644b;
+    text-decoration: underline;
+    }
+    .cont_vopros{
+    text-align: end;
+    margin-top: 48px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    }
+    .tel{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    }
+    .promo_button{
+    margin-top: 44px;
+    width: 130px;
+    height: 45px;
+    background-color: #ec644b;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    cursor: pointer;
+    }
+    .promo_inform{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .promo_inform h3{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-bottom: 26px;
+    }
+    .promo_inform h1{
+    text-align: center;
+        font-family: RobotoCondensed;
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ec644b;
+        padding-bottom: 9px;
+    }
+    .promo_inform h2{
+        text-align: center;
+        font-family: RobotoCondensed;
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding-bottom: 38px;
+    }
+    .divider{
+        display: block;
+        margin: 0 auto;
+        width: 809px;
+        height: 2px;
+        background-color:#ffffff;
+    }
+    .promo_row-2{
+        margin-top: 27px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .promo_wrapper-icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .promo_sub-icon{
+        padding-top: 19px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+    }
+    .promo_button-main{
+        display: block;
+        margin: 0 auto;
+        margin-top: 39px;
+        width: 230px;
+        height: 57px;
+        background-color: #ec644b;
+        border-radius: 45px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        cursor: pointer;
+    
+    }
+}

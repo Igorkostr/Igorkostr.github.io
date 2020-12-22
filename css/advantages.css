@@ -1,0 +1,61 @@
+.advatages{
+    padding: 58px 0 21px 0;
+    background-color: #f3f3f3;
+}
+.advatages__h2{
+text-align: center;
+font-family: Roboto;
+font-size: 26px;
+font-weight: 700;
+text-transform: uppercase;
+color: #2e2e2e;
+padding-bottom: 31px;
+}
+.adv_wrapper{
+    display: flex;
+    justify-content: center;
+}
+.adv_col-wrapper{
+    display: flex;
+    flex-direction: column;
+
+}
+.adv_item_wrapper{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 36px;
+}
+.adv_text{
+    margin-left: 17px;
+    display: flex;
+    flex-direction: column;
+}
+.adv_title{
+font-family: Roboto;
+padding-bottom: 3px;
+font-size: 16px;
+font-weight: 700;
+color: #ec644b;
+}
+.adv_subtitle{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 300;
+color: #3a3a3a;
+}
+.marg_plus{
+    margin-left: 50px;
+}
+@media (min-width:576px) and (max-width:1004px){
+    .adv_wrapper{
+        
+        display: flex;
+        flex-direction: column;
+
+    }
+    .adv_item_wrapper{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
